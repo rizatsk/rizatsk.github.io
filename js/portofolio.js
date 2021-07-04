@@ -33,7 +33,7 @@ $('#card-portofolio').on('click','.see-detail', function(){
                 <div class="col-md-8">
                     <ul class="list-group">
                         <li class="list-group-item"> <h6>`+ data.nama +`</h6> </li>
-                        <li class="list-group-item"> Deksripsi `+data.deskripsiProject+` </li>
+                        <li class="list-group-item">`+data.deskripsiProject+` </li>
                         <iframe class="embed-responsive-item" height="300" src="`+data.vidio+`" allowfullscreen></iframe>
                     </ul>
                 </div>
