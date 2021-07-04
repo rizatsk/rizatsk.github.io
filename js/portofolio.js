@@ -9,7 +9,7 @@ $.getJSON("json/main.json", function(Portofolio){
             <img class="card-img-top" src="image/`+data.photo+`" alt="Card image cap">
             <div class="card-body text-center">
               <h5 class="card-text">`+data.nama+`.</h5>
-              <p class="card-text">`+data.deskripsi.substring(0, 90)+`;...</p>
+              <p class="card-text">`+data.deskripsi.substring(0, 90)+`...</p>
               <a href="#" class="btn btn-primary see-detail" data-bs-toggle="modal" data-bs-target="#exampleModal" data-id="`+ data.id +`">See Detail...</a>
               </div>
               </div>
