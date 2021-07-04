@@ -1,0 +1,15 @@
+.fb img:hover{
+    transition: 0.40s;
+    border-radius: 50px;
+    box-shadow: 0px 1px 1px 4px #3c5798;
+}
+.ig img:hover{
+    transition: 0.40s;
+    border-radius: 50px;
+    box-shadow: 0px 1px 1px 4px #b9358a;
+}
+.yt img:hover{
+    transition: 0.40s;
+    border-radius: 50px;
+    box-shadow: 0px 1px 1px 4px #cc181e;
+}

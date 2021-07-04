@@ -1,0 +1,87 @@
+/* Main Board */
+.main-board{
+    background-color: rgb(218, 218, 218);
+}
+
+.main-right img{
+    width: 400px;
+}
+
+.button-inwrapper{
+  margin-top: 20px;
+  display: inline-block;
+  padding: 6px 50px;
+  border-radius: 20px;
+  background-color:#373438;
+  color:white;
+  font-size: 20px;
+  box-shadow:0 7px 5px 0 #858585;
+}
+.button-inwrapper:hover{
+ background-color: white;
+ color: black;
+ transition: 0.55s;
+}
+
+.instagram-thumbnail{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    overflow: hidden;
+}
+
+.instagram-thumbnail img{
+    width: 100px;
+}
+
+/* Main-Skill */
+.skill-right img{width: 400px;}
+.button-incenter{
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 20px;
+    background-color:#373438;
+    color:white;
+    font-size: 13px;
+    box-shadow:0 7px 5px 0 #858585;
+}
+.button-incenter:hover{
+ background-color: white;
+ color: black;
+ transition: 0.55s;
+}
+/* footer */
+.footer{
+    background-color: rgb(219, 219, 219);
+}
+
+.contacts p a{
+    color: black;
+    text-decoration: none;
+}
+.contacts p a:hover{
+    color: #0bb3e4;
+}
+
+.fb img,.ig img{
+    width: 50px;
+}
+.fb-bottom img:hover{
+    transition: 0.40s;
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px 4px #3c5798;
+}
+.ig-bottom img:hover{
+    transition: 0.40s;
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px 4px #b9358a;
+}
+
+.a-social-media{text-decoration: none;}
+.a-social-media .p-social-media:hover{color: #0bb3e4;}
+.p-social-media{color: black;}
+
+.a-blog a{text-decoration: none;}   
+.copyright p{font-size: 13px;}
+.copyright p span{color: #0bb3e4;}

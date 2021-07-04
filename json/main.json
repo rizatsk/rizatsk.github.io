@@ -1,0 +1,40 @@
+{
+    "projects" : [
+        {
+            "id" : "01",
+            "nama" : "Project WEB Pemesanan Barang TOKO ZEROONE",
+            "deskripsi" : "Menjual Produk iPhone baru Bergaransi , Murah dan Aman dalam bertransaksi Menggunakan HTML dan CSS.",
+            "deskripsiProject" : "Menggunakan Bahasa Pemograman HTML5 dan CSS 3, Menggunakan Visual Studio Code dan untuk desain Menggunakan Adobe Photoshop",
+            "vidio" : "https://www.youtube.com/embed/8yjPxXX7jv0",
+            "logo" : "zeroone.png",
+            "photo" : "htmlcss.png"
+        },
+        {
+            "id" : "02",
+            "nama" : "Project Web Commerce ITindoSolution",
+            "deskripsi" : "Menggunakan Framework Bootstrap, Bahasa pemograman PHP,Framework Laravel 8 dan sudah menjadi website dinamis.",
+            "deskripsiProject" : "ITindoSolution Menggunakan Bahasa Pemograman HTML , PHP dan CSS Menggunakan Framework Laravel 8, Bootstrap dan DBMS Mysql,PhpMyAdmin Aplikasi web commerce checkout melalui whatsapp.",
+            "vidio" : "https://www.youtube.com/embed/2j0YMzF5U-E",
+            "logo" : "zeroone.png",
+            "photo" : "webcomerce.png"
+        },
+        {
+            "id" : "03",
+            "nama" : "Project CRUD Laravel8 Livewire and Jetstream",
+            "deskripsi" : "Untuk tampilan Menggunakan platform Tailwind CSS menggunakan platform Laravel jetstream menggunakan platfrom laravel Livewire dan juga menggunakan platform Filepond.",
+            "deskripsiProject" : "Menggunakan Framework Laravel 8 Disini saya gunakan Flatform Laravel Jetstream,Livewire juga SweetAlert2 ,dan FilePond.",
+            "vidio" : "https://www.youtube.com/embed/gsO3PWrul5g",
+            "logo" : "zeroone.png",
+            "photo" : "laravel8.png"
+        },
+        {
+            "id" : "04",
+            "nama" : "Setting Mikrotik Menggunakan VirtualBox",
+            "deskripsi" : "Menggunakan Virtual Box sama saja dengan menggunakan perangkat aslinya karena ini gratis untuk belajar menyeting Mikrotik serta Membuat Jaringan.",
+            "deskripsiProject" : "Menggunakan OS Mikrotik via VirtualBox Sama saja dengan menyeting Perangkat Aslinya Karena untuk pembelajaran menggunakan yang gratis lebih hemat dan pembelajaranya bisa lebih banyak karena clientnya menggunakan OS dari VirtualBox juga.",
+            "vidio" : "https://www.youtube.com/embed/HXYs-1jNpm8",
+            "logo" : "mikrotik.png",
+            "photo" : "mikrotik2.png"
+        }
+    ]
+}
