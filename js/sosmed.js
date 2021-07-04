@@ -47,11 +47,8 @@ $.ajax({
         if(result){
             let idVideoLatest = result.items[0]['id']['videoId'];
            $("#youtube").append(`
-           <div class="row mt-4 mb-4">
-              <div class="col-md-12 embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/`+idVideoLatest+`" allowfullscreen></iframe>
-              </div>
-           </div`);
+                <iframe class="embed-responsive-item" height="250" width="100%" src="https://www.youtube.com/embed/`+idVideoLatest+`" allowfullscreen></iframe>
+            `);
         }
     }
 });
