@@ -29,5 +29,15 @@ $('#send').on('click',function(){
        /* Whatsapp Window Open */
        window.open(blanter_whatsapp,'_blank');
        }
+    else{
+        $('.for-alert').html(`
+        <div class="alert alert-primary d-flex align-items-center" role="alert">
+          <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:"><use xlink:href="#info-fill"/></svg>
+          <div>
+            Harap Harus Mengisi Name dan Message, Yang Lain Tidak Di isi Tidak Masalah !
+          </div>
+        </div>
+        `);
+    }
 
 });
