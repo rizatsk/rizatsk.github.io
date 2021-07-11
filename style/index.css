@@ -51,6 +51,10 @@
  color: black;
  transition: 0.55s;
 }
+/* sosmed */
+a h4{color: black;}
+a h4:hover{color: rgb(0, 89, 255);}
+
 /* footer */
 .footer{
     background-color: rgb(219, 219, 219);
