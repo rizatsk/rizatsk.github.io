@@ -17,7 +17,7 @@ $(document).ready( function($) {
       if($(document).scrollTop() > 1200){
         $('.social').addClass('animate__animated animate__fadeInUp');
       }
-      if($(document).scrollTop() > 1800){
+      if($(document).scrollTop() > 1500){
         $('.contact').addClass('animate__animated animate__fadeInRight');
       }
     });
