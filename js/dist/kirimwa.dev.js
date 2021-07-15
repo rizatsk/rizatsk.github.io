@@ -28,7 +28,7 @@ if (h >= 18 || h < 4) {
 
 ;
 $('#send').on('click', function () {
-  var walink = 'https://web.whatsapp.com/send',
+  var walink = 'https://api.whatsapp.com/send',
       phone = '6287782987067',
       walink2 = 'Assalamualaikum Rizat,' + waktu;
   /* Call Input Form */
