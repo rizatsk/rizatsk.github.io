@@ -8,12 +8,12 @@ $(document).ready( function($) {
       if ( $(document).scrollTop() > 80 ) {
         // Navigation Bar
         // $('.navbar').removeClass('fadeIn');
-        $('.navbar').removeClass('bg-abuabu');
-        $('.navbar').addClass('bg-light');
+        $('.navbar').removeClass('bg-transparent');
+        $('.navbar').addClass('bg-bluekTransparant');
         $('.navbar').addClass('animate__animated animate__fadeInDown');
       } else {
-        $('.navbar').addClass('bg-abuabu');
-        $('.navbar').removeClass('bg-light');
+        $('.navbar').addClass('bg-transparent');
+        $('.navbar').removeClass('bg-bluekTransparant');
         $('.navbar').removeClass('animate__animated animate__fadeInDown');
         // $('.navbar').addClass('animate__animated animate__fadeIn');
       }
