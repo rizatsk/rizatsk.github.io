@@ -1,0 +1,324 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/output.css" rel="stylesheet">
+    <link rel="icon" href="./images/Logo.png">
+    <title>Rizat Sakmir</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="absolute top-0 left-0 w-full z-10" id="header">
+        <div class="container px-4">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4 py-2">
+                    <a href="#" class="flex gap-2">
+                        <img class="h-[30px] self-start" src="./images/Logo.png" alt="logo" />
+                        <p class="uppercase text-2xl font-bold italic text-dark self-end">Rizat sakmir</p>
+                    </a>
+                </div>
+
+                <div class="flex items-center px-4">
+                    <!-- Hamburger Button -->
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line origin-top-left"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line origin-bottom-left"></span>
+                    </button>
+
+                    <nav class="hidden absolute py-3 bg-white shadow-2xl rounded-lg max-w-[200px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+                        id="nav-menu">
+                        <ul class="block lg:flex items-center lg:space-x-10 z-[1]" id="ul-navbar">
+                            <!-- Data in JS -->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Navbar End -->
+
+    <main>
+        <!-- Hero section -->
+        <section class="container mt-10 lg:mt-20 py-10">
+            <div class="grid md:grid-cols-2 items-center">
+                <div class="order-2 md:order-1 space-y-4 mx-5 lg:mx-auto" id="content-hero_section">
+                    <!-- Data in JS -->
+                </div>
+                <div class="mb-4 lg:mb-0 order-1 md:order-2">
+                    <img class="w-[50%] md:w-[30vw] mx-auto drop-shadow-imageXl" src="./images/rizat sakmir.webp"
+                        alt="aplikasu byon">
+                </div>
+            </div>
+        </section>
+        <!-- End Hero section -->
+
+        <!-- Mastering Tech -->
+        <section class="container mt-5 md:mt-10 lg:mt-20 py-10">
+            <h2 class="uppercase text-dark text-xl xl:text-3xl font-bold italic text-center" id="h2-tech"></h2>
+            <div class="flex justify-center items-center gap-14 flex-wrap mt-12 px-2">
+                <a class="group" href="https://nodejs.org/en/about" target="_blank">
+                    <div
+                        class="h-[80px] lg:h-[120px] 2xl:h-[150px] flex items-center transform transition-transform lg:hover:-translate-y-2">
+                        <img class="h-[70px] 2xl:h-[150px] object-contain" src="./images/nodejs.webp" alt="nodejs">
+                    </div>
+                    <p
+                        class="text-gradient-primary mt-4 lg:invisible lg:group-hover:visible text-dark text-base xl:text-xl text-center font-[700] italic uppercase transition-all duration-300 transform lg:opacity-0 lg:-translate-y-10 lg:group-hover:translate-y-0 lg:group-hover:opacity-100">
+                        node js</p>
+                </a>
+                <a class="group" href="https://hapi.dev/tutorials/?lang=en_US" target="_blank">
+                    <div
+                        class="h-[80px] lg:h-[120px] 2xl:h-[150px] flex items-center transform transition-transform hover:-translate-y-2">
+                        <img class="h-[70px] 2xl:h-[120px] object-contain" src="./images/hapi.webp" alt="hapijs">
+                    </div>
+                    <p
+                        class="text-gradient-primary mt-4 lg:invisible lg:group-hover:visible text-dark text-base xl:text-xl text-center font-[700] italic uppercase transition-all duration-300 transform lg:opacity-0 lg:-translate-y-10 lg:group-hover:translate-y-0 lg:group-hover:opacity-100">
+                        hapi js</p>
+                </a>
+                <a class="group" href="https://legacy.reactjs.org/" target="_blank">
+                    <div
+                        class="h-[80px] lg:h-[120px] 2xl:h-[150px] flex items-center transform transition-transform hover:-translate-y-2">
+                        <img class="h-[70px] 2xl:h-[90px] object-contain" src="./images/reactjs.webp" alt="reactjs">
+                    </div>
+                    <p
+                        class="text-gradient-primary mt-4 lg:invisible lg:group-hover:visible text-dark text-base xl:text-xl text-center font-[700] italic uppercase transition-all duration-300 transform lg:opacity-0 lg:-translate-y-10 lg:group-hover:translate-y-0 lg:group-hover:opacity-100">
+                        react js</p>
+                </a>
+                <a class="group" href="https://laravel.com/" target="_blank">
+                    <div
+                        class="h-[80px] lg:h-[120px] 2xl:h-[150px] flex items-center transform transition-transform hover:-translate-y-2">
+                        <img class="h-[70px] 2xl:h-[120px] object-contain" src="./images/laravel.webp" alt="laravel">
+                    </div>
+                    <p
+                        class="text-gradient-primary mt-4 lg:invisible lg:group-hover:visible text-dark text-base xl:text-xl text-center font-[700] italic uppercase transition-all duration-300 transform lg:opacity-0 lg:-translate-y-10 lg:group-hover:translate-y-0 lg:group-hover:opacity-100">
+                        laravel</p>
+                </a>
+                <a class="group" href="https://www.postgresql.org/" target="_blank">
+                    <div
+                        class="h-[80px] lg:h-[120px] 2xl:h-[150px] flex items-center transform transition-transform hover:-translate-y-2">
+                        <img class="h-[70px] 2xl:h-[120px] object-contain" src="./images/postgres.webp" alt="postgres">
+                    </div>
+                    <p
+                        class="text-gradient-primary mt-4 lg:invisible lg:group-hover:visible text-dark text-base xl:text-xl text-center font-[700] italic uppercase transition-all duration-300 transform lg:opacity-0 lg:-translate-y-10 lg:group-hover:translate-y-0 lg:group-hover:opacity-100">
+                        postgres</p>
+                </a>
+                <a class="group" href="https://www.mysql.com/" target="_blank">
+                    <div
+                        class="h-[80px] lg:h-[120px] 2xl:h-[150px] flex items-center transform transition-transform hover:-translate-y-2">
+                        <img class="h-[70px] 2xl:h-[150px] object-contain" src="./images/mysql.webp" alt="mysql">
+                    </div>
+                    <p
+                        class="text-gradient-primary mt-4 lg:invisible lg:group-hover:visible text-dark text-base xl:text-xl text-center font-[700] italic uppercase transition-all duration-300 transform lg:opacity-0 lg:-translate-y-10 lg:group-hover:translate-y-0 lg:group-hover:opacity-100">
+                        mysql</p>
+                </a>
+                <a class="group" href="https://redis.io/" target="_blank">
+                    <div
+                        class="h-[80px] lg:h-[120px] 2xl:h-[150px] flex items-center transform transition-transform hover:-translate-y-2">
+                        <img class="h-[70px] 2xl:h-[120px] object-contain" src="./images/redis.webp" alt="redis">
+                    </div>
+                    <p
+                        class="text-gradient-primary mt-4 lg:invisible lg:group-hover:visible text-dark text-base xl:text-xl text-center font-[700] italic uppercase transition-all duration-300 transform lg:opacity-0 lg:-translate-y-10 lg:group-hover:translate-y-0 lg:group-hover:opacity-100">
+                        redis</p>
+                </a>
+                <a class="group" href="https://git-scm.com/" target="_blank">
+                    <div
+                        class="h-[80px] lg:h-[120px] 2xl:h-[150px] flex items-center transform transition-transform hover:-translate-y-2">
+                        <img class="h-[70px] 2xl:h-[120px] object-contain" src="./images/git.webp" alt="git">
+                    </div>
+                    <p
+                        class="text-gradient-primary mt-4 lg:invisible lg:group-hover:visible text-dark text-base xl:text-xl text-center font-[700] italic uppercase transition-all duration-300 transform lg:opacity-0 lg:-translate-y-10 lg:group-hover:translate-y-0 lg:group-hover:opacity-100">
+                        git</p>
+                </a>
+                <a class="group" href="https://v2.tailwindcss.com/docs" target="_blank">
+                    <div
+                        class="h-[80px] lg:h-[120px] 2xl:h-[150px] flex items-center transform transition-transform hover:-translate-y-2">
+                        <img class="h-[70px] 2xl:h-[120px] object-contain" src="./images/tailwind.webp" alt="tailwind">
+                    </div>
+                    <p
+                        class="text-gradient-primary mt-4 lg:invisible lg:group-hover:visible text-dark text-base xl:text-xl text-center font-[700] italic uppercase transition-all duration-300 transform lg:opacity-0 lg:-translate-y-10 lg:group-hover:translate-y-0 lg:group-hover:opacity-100">
+                        tailwind</p>
+                </a>
+                <a class="group" href="https://www.centos.org/" target="_blank">
+                    <div
+                        class="h-[80px] lg:h-[120px] 2xl:h-[150px] flex items-center transform transition-transform hover:-translate-y-2">
+                        <img class="h-[70px] 2xl:h-[120px] object-contain" src="./images/centos.webp" alt="centos">
+                    </div>
+                    <p
+                        class="text-gradient-primary mt-4 lg:invisible lg:group-hover:visible text-dark text-base xl:text-xl text-center font-[700] italic uppercase transition-all duration-300 transform lg:opacity-0 lg:-translate-y-10 lg:group-hover:translate-y-0 lg:group-hover:opacity-100">
+                        centos</p>
+                </a>
+                <a class="group" href="https://www.nginx.com/" target="_blank">
+                    <div
+                        class="h-[80px] lg:h-[120px] 2xl:h-[150px] flex items-center transform transition-transform hover:-translate-y-2">
+                        <img class="h-[70px] 2xl:h-[120px] object-contain" src="./images/nginx.webp" alt="nginx">
+                    </div>
+                    <p
+                        class="text-gradient-primary mt-4 lg:invisible lg:group-hover:visible text-dark text-base xl:text-xl text-center font-[700] italic uppercase transition-all duration-300 transform lg:opacity-0 lg:-translate-y-10 lg:group-hover:translate-y-0 lg:group-hover:opacity-100">
+                        nginx</p>
+                </a>
+            </div>
+        </section>
+        <!-- End Mastering Tech -->
+
+        <!-- About -->
+        <section id="about" class="container mt-5 md:mt-10 2xl:mt-10 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+                <div class="h-[150px] md:h-[300px] 2xl:h-[400px] flex items-center justify-center">
+                    <img class="h-[150px] md:h-[300px] 2xl:h-[400px] object-contain animate-flying"
+                        src="./images/aboutme.webp" alt="about">
+                </div>
+                <div class="px-4" id="content-about">
+                    <!-- Data in JS -->
+                </div>
+            </div>
+        </section>
+        <!-- End About -->
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="container mt-5 md:mt-10 2xl:mt-20 lg:py-10 px-2 xl:px-4">
+            <div id="title-portfolio">
+                <!-- Content in JS -->
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-2 lg:gap-10 lg:mt-10" id="content-portfolio">
+                <!-- Content in JS -->
+            </div>
+        </section>
+        <!-- End Portfolio -->
+
+        <!-- Contact -->
+        <section id="contact" class="container mt-20 2xl:py-10 px-2 xl:px-4">
+            <div class="pb-5" id="title-contact">
+                <!-- Content In JS -->
+            </div>
+            <div class="grid grid-cols-1 lg:flex lg:justify-center gap-10 lg:gap-20">
+                <div>
+                    <form method="POST" action="#"
+                        class="w-full md:w-[500px] lg:w-[550px] 2xl:w-[30vw] mx-auto box-pricing py-12"
+                        id="form-contact">
+                        <!-- Content In JS -->
+                    </form>
+                </div>
+                <div class="lg:w-[40%] space-y-10 order-first lg:order-last self-center" id="list-contact">
+                    <!-- Content In JS -->
+                </div>
+            </div>
+        </section>
+        <!-- Contact End -->
+
+        <!-- Modal Portfolio -->
+        <div tabIndex='-1' aria-hidden='true'
+            class='invisible fixed inset-0 z-30 flex items-end bg-black bg-opacity-50 sm:items-center sm:justify-center overflow-auto'
+            id="modal-portfolio">
+            <div
+                class='w-full min-h-max max-h-[85vh] 2xl:h-max px-6 py-4 overflow-y-auto bg-white rounded-t-lg dark:bg-gray-800 sm:rounded-lg sm:m-4 max-w-4xl'>
+                <div class='relative bg-white rounded-lg dark:bg-gray-700'>
+                    <div class='flex justify-between items-center rounded-t'>
+                        <h3 class='text-sm 2xl:text-base font-semibold text-gray-900 dark:text-white uppercase tracking-widest'
+                            id="title-modal-portfolio">
+                            <!-- Content in JS -->
+                            Smart By Samafitro
+                        </h3>
+                        <button type='button' id="close-modal-portfolio"
+                            class='text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white'
+                            data-modal-toggle='defaultModal'>
+                            <svg aria-hidden='true' class='w-5 h-5' fill='currentColor' viewBox='0 0 20 20'
+                                xmlns='http://www.w3.org/2000/svg'>
+                                <path fillRule='evenodd'
+                                    d='M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z'
+                                    clipRule='evenodd'></path>
+                            </svg>
+                            <span class='sr-only'>Close modal</span>
+                        </button>
+                    </div>
+                    <div class="lg:mt-5">
+                        <div class="max-w-xl mx-auto lg:py-5">
+                            <div class="relative">
+                                <ul id="slider" class="images-modal-portfolio">
+                                    <!-- Content In JS -->
+                                </ul>
+                                <button class="absolute top-[45%] -left-1" id="button-prev-carousel">
+                                    <svg stroke="currentColor" fill="#00000080" stroke-width="0" viewBox="0 0 448 512"
+                                        height="40px" width="40px" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zM259.515 124.485l-123.03 123.03c-4.686 4.686-4.686 12.284 0 16.971l123.029 123.029c7.56 7.56 20.485 2.206 20.485-8.485V132.971c.001-10.691-12.925-16.045-20.484-8.486z">
+                                        </path>
+                                    </svg>
+                                </button>
+                                <button class="absolute top-[45%] -right-1" id="button-next-carousel">
+                                    <svg stroke="currentColor" fill="#00000080" stroke-width="0" viewBox="0 0 448 512"
+                                        height="40px" width="40px" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M448 96c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320zM320 256c0 6.7-2.8 13-7.7 17.6l-112 104c-7 6.5-17.2 8.2-25.9 4.4s-14.4-12.5-14.4-22l0-208c0-9.5 5.7-18.2 14.4-22s18.9-2.1 25.9 4.4l112 104c4.9 4.5 7.7 10.9 7.7 17.6z">
+                                        </path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div id="content-modal-portfolio">
+                            <!-- Content In JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Portfolio End -->
+
+        <!-- Modal Image -->
+        <div class='hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50' id="image-modal">
+            <div class='max-w-[80vw] max-h-[90vh] bg-white rounded-lg overflow-hidden'>
+                <img id="img-image-modal" src="" alt='image-large'
+                    class='max-w-[80vw] max-h-[90vh] object-contain rounded-xl' />
+                <button class='absolute top-0 right-0 m-4 text-white' id="button-close-image-modal">
+                    Close
+                </button>
+            </div>
+        </div>
+        <!-- Modal Image End -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-darkFooter pt-20 pb-10 mt-10">
+        <div class="flex flex-col justify-center">
+            <a href="/#" class="flex gap-2 justify-center">
+                <img class="h-[30px] self-start" src="./images/Logo.png" alt="logo" />
+                <p class="uppercase text-base 2xl:text-2xl font-bold italic text-white tracking-widest self-end">Rizat
+                    sakmir</p>
+            </a>
+            <div class="hidden md:flex justify-center gap-8 py-10" id="navbar-footer">
+                <!-- Content In JS -->
+            </div>
+            <div class="flex justify-center gap-8 pb-5 pt-5 md:pt-0">
+                <a class="bg-sosmed-footer p-2 rounded-[50%]" href="https://github.com/rizatsk" target="_blank">
+                    <img class="h-[20px] lg:h-[35px] object-contain" src="./images/github rizat.webp" alt="github">
+                </a>
+                <a class="bg-sosmed-footer p-2 rounded-[50%]" href="https://www.linkedin.com/in/rizat-sakmir-7499951a4/"
+                    target="_blank">
+                    <img class="h-[20px] lg:h-[35px] object-contain" src="./images/linkedin rizat.webp" alt="linkedin">
+                </a>
+                <a class="bg-sosmed-footer p-2 rounded-[50%]" href="https://www.instagram.com/rz.sk/" target="_blank">
+                    <img class="h-[20px] lg:h-[35px] object-contain" src="./images/instagram rizat.webp"
+                        alt="instagram">
+                </a>
+                <a class="bg-sosmed-footer p-2 rounded-[50%]" href="https://wa.me?6287782987067" target="_blank">
+                    <img class="h-[20px] lg:h-[35px] object-contain" src="./images/whathsapp.webp" alt="WA">
+                </a>
+            </div>
+            <p class="text-center text-white text-xs py-5" id="copyRight"></p>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+
+    <script src="./script.js"></script>
+    <script src="./dist/nvabar.js"></script>
+</body>
+
+</html>

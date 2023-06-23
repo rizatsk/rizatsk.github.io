@@ -1,0 +1,551 @@
+{
+  "english": {
+    "navbar": [
+      {
+        "text": "home",
+        "href": "#"
+      },
+      {
+        "text": "about",
+        "href": "#about"
+      },
+      {
+        "text": "portfolio",
+        "href": "#portfolio"
+      },
+      {
+        "text": "contact",
+        "href": "#contact"
+      }
+    ],
+    "hero": {
+      "one": "Hey There !",
+      "two": "I AM RIZAT SAKMIR",
+      "three": "FRONT END WEB DEVELOPER AND BACK END",
+      "button": "SEE MY PROJECT"
+    },
+    "tech": "mastering technology",
+    "about": {
+      "title": "about me",
+      "job": "front end web developer <br> and back end",
+      "description": "I am a Web Developer, already have advanced level <br class='hidden xl:block'> certification in the field of Front End Web Developer and <br class='hidden xl:block'> Fundamental Back End Developer. I am a self-learner who likes <br class='hidden xl:block'> to learn new competencies and skills, easy to work individually <br class='hidden xl:block'> or in a team, can be flexible to adapt to the environment.",
+      "button": "dwonload CV"
+    },
+    "portfolio": {
+      "title": {
+        "one": "my portfolio",
+        "two": "projects I've worked on"
+      },
+      "content": [
+        {
+          "key": "smart-samafitro",
+          "image": "samafitro/smart2.webp",
+          "altImage": "smart by samafitro",
+          "title": "smart by samafitro",
+          "content": "Working on Back End API and CMS for Smart By Samafitro mobile application, Back End API using NodeJS with HapiJS framework, and for CMS using Laravel 9 and Jquery framework.",
+          "modal": {
+            "images": [
+              "samafitro/smart1.webp",
+              "samafitro/smart2.webp",
+              "samafitro/smart3.webp"
+            ],
+            "processTime": {
+              "title": "processing time",
+              "content": "17 Oktober 2022 - 30 Desember 2023"
+            },
+            "framework": {
+              "title": "Framework",
+              "content": ["Laravel 9", "Node JS v16.17.0", "Jquery"]
+            },
+            "tools": {
+              "title": "Tools",
+              "content": ["Send Email Using Queue Rabbit-MQ"]
+            },
+            "fitur": {
+              "title": "Fitur",
+              "content": [
+                "Auth JWT Token",
+                "Register",
+                "Request Service",
+                "Authorization"
+              ]
+            },
+            "jobsDesk": {
+              "title": "Jobs Desk",
+              "content": ["Back End API Mobile", "CMS For Admin", "Deployment"]
+            },
+            "description": {
+              "title": "Description",
+              "content": "Application for Samafitro customers in making service requests, toner requests. Users can see what devices they have, can see service history and service service history logs easily, clearly monitored, and also quickly, every time there is a new service request it will send an email to each admin, as well as every change in the status of a request service sends a notification to that user."
+            }
+          }
+        },
+        {
+          "key": "itindosolution",
+          "image": "itindosolution/itindosolution.webp",
+          "altImage": "itindosolution",
+          "title": "itindosolution",
+          "content": "Working on Backend API and CMS for ITMU mobile application, Back End API using NodeJS with HapiJS framework, and for CMS using React JS.",
+          "modal": {
+            "images": [
+              "itindosolution/itindo1.webp",
+              "itindosolution/itindo2.webp",
+              "itindosolution/itindo3.webp",
+              "itindosolution/itindo4.webp",
+              "itindosolution/itindo5.webp"
+            ],
+            "processTime": {
+              "title": "processing time",
+              "content": "3 April 2023 - 22 Mei 2023"
+            },
+            "framework": {
+              "title": "Framework",
+              "content": ["Node JS v16.17.0", "ReactJS", "Tailwind CSS"]
+            },
+            "tools": {
+              "title": "Tools",
+              "content": [
+                "Send Email Using Queue Rabbit-MQ",
+                "Cache Using Redis"
+              ]
+            },
+            "fitur": {
+              "title": "Fitur",
+              "content": [
+                "Auth JWT Token",
+                "Register",
+                "Request Service",
+                "Authorization",
+                "Unit Testing",
+                "CI Use Github Actions"
+              ]
+            },
+            "jobsDesk": {
+              "title": "Jobs Desk",
+              "content": ["Back End API Mobile", "CMS For Admin", "Deployment"]
+            },
+            "description": {
+              "title": "Description",
+              "content": "An application that can see estimated laptop/computer repair prices, can make service requests, can view service history and service history logs easily, is monitored clearly, and is also fast, every time there is a new service request it will send an email to every admin, as well as every service status change request sends notification to that user. The Back End and CMS have implemented the Authorization of the JWT token."
+            }
+          }
+        },
+        {
+          "key": "simple-attendance",
+          "image": "attendance/attendance1.webp",
+          "altImage": "attendance",
+          "title": "simple attendance",
+          "content": "Working on Backend API and CMS for Simple Attendance mobile application, Back End API using NodeJS with HapiJS framework, and for CMS using React JS.",
+          "modal": {
+            "images": [
+              "attendance/attendance1.webp",
+              "attendance/attendance2.webp",
+              "attendance/attendance3.webp",
+              "attendance/attendance4.webp",
+              "attendance/attendance5.webp"
+            ],
+            "processTime": {
+              "title": "processing time",
+              "content": "22 Mei 2023 - 5 Juni 2023"
+            },
+            "framework": {
+              "title": "Framework",
+              "content": ["Node JS v16.17.0", "ReactJS", "Tailwind CSS"]
+            },
+            "tools": {
+              "title": "Tools",
+              "content": ["attendance using face match", "Cache Using Redis"]
+            },
+            "fitur": {
+              "title": "Fitur",
+              "content": [
+                "Auth JWT Token",
+                "Register",
+                "Authorization",
+                "Attendance"
+              ]
+            },
+            "jobsDesk": {
+              "title": "Jobs Desk",
+              "content": ["Back End API Mobile", "CMS For Admin", "Deployment"]
+            },
+            "description": {
+              "title": "Description",
+              "content": "Absence application for employees using face match, can request leave and permits, CMS can see employee absences per month and see the total number of absences, can see employee delays in several months."
+            }
+          }
+        },
+        {
+          "key": "byon",
+          "image": "byon/byon.webp",
+          "altImage": "byon",
+          "title": "Company Profile BYON",
+          "content": "Create a BYON Company Profile using PHP, Javascript, and Tailwind CSS, is mobile responsive, can send email, and uses Google Recapta.",
+          "modal": {
+            "images": [
+              "byon/byon.webp",
+              "byon/byon2.webp",
+              "byon/byon3.webp",
+              "byon/byon4.webp"
+            ],
+            "processTime": {
+              "title": "processing time",
+              "content": "6 Februari 2023 - 12 Februari 2023"
+            },
+            "framework": {
+              "title": "Framework",
+              "content": ["Tailwind CSS"]
+            },
+            "tools": {
+              "title": "Tools",
+              "content": ["PHP"]
+            },
+            "fitur": {
+              "title": "Fitur",
+              "content": ["Send Email Using PHP Mailer", "Company Profile"]
+            },
+            "jobsDesk": {
+              "title": "Jobs Desk",
+              "content": ["Create Company Profile", "Deployment"]
+            },
+            "description": {
+              "title": "Description",
+              "content": "The company profile website is responsive, to introduce the Byon application, the products contained in the byon application, and the features it has, if anyone is interested, they can send an email via the contact page."
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "title": {
+        "one": "Contact",
+        "two": "Contact to me"
+      },
+      "form": {
+        "title": "Send To Whathsapp",
+        "name": {
+          "label": "fullname",
+          "placeholder": "Please enter your full name"
+        },
+        "email": {
+          "label": "email",
+          "placeholder": "Please enter your full email"
+        },
+        "phone": {
+          "label": "phone number",
+          "placeholder": "08**********"
+        },
+        "message": {
+          "label": "message",
+          "placeholder": "Please enter your message"
+        },
+        "button": "send message"
+      },
+      "contact": [
+        {
+          "key": "address",
+          "image": "address",
+          "one": "DKI Jakarta, Jakarta Utara",
+          "two": "Pademangan, Pademangan Timur 14410"
+        },
+        {
+          "key": "phone",
+          "image": "phone",
+          "one": "+62 877 8298 7067",
+          "two": "Mon to Fri 9am to 8pm"
+        },
+        {
+          "key": "email",
+          "image": "email",
+          "one": "rizatsakmir@gmail.com",
+          "two": "Send us your query anytime!"
+        }
+      ]
+    },
+    "footer": {
+      "copyRight": "Copyright ©2023 All rights reserved"
+    }
+  },
+
+  "indonesia": {
+    "navbar": [
+      {
+        "text": "beranda",
+        "href": "#"
+      },
+      {
+        "text": "tentang",
+        "href": "#about"
+      },
+      {
+        "text": "portfolio",
+        "href": "#portfolio"
+      },
+      {
+        "text": "kontak",
+        "href": "#contact"
+      }
+    ],
+    "hero": {
+      "one": "Hai Disana !",
+      "two": "SAYA RIZAT SAKMIR",
+      "three": "FRONT END WEB DEVELOPER DAN BACK END",
+      "button": "LIHAT PROYEK SAYA"
+    },
+    "tech": "menguasai teknologi",
+    "about": {
+      "title": "tentang saya",
+      "job": "front end web developer <br> dan back end",
+      "description": "Saya seorang Pengembang Web, sudah memiliki tingkat lanjutan <br class='hidden xl:block'> sertifikasi di bidang Front End Web Developer dan <br class='hidden xl:block'> Pengembang Back End lanjutan. Saya seorang pembelajar mandiri yang suka <br class='hidden xl:block'> mempelajari kompetensi baru dan keterampilan, mudah untuk bekerja secara individu <br class='hidden xl:block'> atau dalam tim, dapat fleksibel untuk beradaptasi dengan lingkungan.",
+      "button": "unduh CV"
+    },
+    "portfolio": {
+      "title": {
+        "one": "portfolio saya",
+        "two": "proyek yang pernah <br> saya kerjakan"
+      },
+      "content": [
+        {
+          "key": "smart-samafitro",
+          "image": "samafitro/smart2.webp",
+          "altImage": "smart by samafitro",
+          "title": "smart by samafitro",
+          "content": "Mengerjakan Back End API dan CMS untuk aplikasi mobile Smart By Samafitro, Back End API menggunakan NodeJS dengan framework HapiJS, dan untuk CMS menggunakan framework Laravel 9 dan Jquery.",
+          "modal": {
+            "images": [
+              "samafitro/smart1.webp",
+              "samafitro/smart2.webp",
+              "samafitro/smart3.webp"
+            ],
+            "processTime": {
+              "title": "Waktu Pengerjaan",
+              "content": "17 Oktober 2022 - 30 Desember 2023"
+            },
+            "framework": {
+              "title": "Framework",
+              "content": ["Laravel 9", "Node JS v16.17.0", "Jquery"]
+            },
+            "tools": {
+              "title": "Tools",
+              "content": ["Kirim email dengan antrian Rabbit-MQ"]
+            },
+            "fitur": {
+              "title": "Fitur",
+              "content": [
+                "Auth JWT Token",
+                "Register",
+                "Request Service",
+                "Authorization"
+              ]
+            },
+            "jobsDesk": {
+              "title": "Pekerjaan",
+              "content": ["Back End API Mobile", "CMS For Admin", "Deployment"]
+            },
+            "description": {
+              "title": "Deskripsi",
+              "content": "Aplikasi untuk para customer Samafitro dalam melakukan request service, permintaan toner. User dapat melihat device apa saja yang dimiliki, dapat melihat history service serta log history pelayanan service dengan mudah, terpantau jelas, dan juga cepat, setiap terdapat request service baru akan mengirimkan email ke setiap admin, begitu juga setiap perubahan status request service mengirimkan notifikasi ke user tersebut."
+            }
+          }
+        },
+        {
+          "key": "itindosolution",
+          "image": "itindosolution/itindosolution.webp",
+          "altImage": "itindosolution",
+          "title": "itindosolution",
+          "content": "Mengerjakan Backend API dan CMS untuk aplikasi seluler ITMU, Back End API menggunakan NodeJS dengan framework HapiJS, dan untuk CMS menggunakan React JS.",
+          "modal": {
+            "images": [
+              "itindosolution/itindo1.webp",
+              "itindosolution/itindo2.webp",
+              "itindosolution/itindo3.webp",
+              "itindosolution/itindo4.webp",
+              "itindosolution/itindo5.webp"
+            ],
+            "processTime": {
+              "title": "Waktu Pengerjaan",
+              "content": "3 April 2023 - 22 Mei 2023"
+            },
+            "framework": {
+              "title": "Framework",
+              "content": ["Node JS v16.17.0", "ReactJS", "Tailwind CSS"]
+            },
+            "tools": {
+              "title": "Tools",
+              "content": [
+                "Kirim email dengan antrian Rabbit-MQ",
+                "Cache menggunakan Redis"
+              ]
+            },
+            "fitur": {
+              "title": "Fitur",
+              "content": [
+                "Auth JWT Token",
+                "Register",
+                "Request Service",
+                "Authorization",
+                "Unit Testing",
+                "CI Menggunakan Github Actions"
+              ]
+            },
+            "jobsDesk": {
+              "title": "Pekerjaan",
+              "content": [
+                "Back End API Mobile",
+                "CMS Untuk Admin",
+                "Deployment"
+              ]
+            },
+            "description": {
+              "title": "Deskripsi",
+              "content": "Aplikasi yang dapat melihat estimasi harga perbaikan laptop/komputer, dapat melakukan request service, dapat melihat history service serta log history pelayanan service dengan mudah, terpantau jelas, dan juga cepat, setiap terdapat request service baru akan mengirimkan email ke setiap admin, begitu juga setiap perubahan status request service mengirimkan notifikasi ke user tersebut. Back End dan CMS sudah menerapkan Authorization dari JWT token."
+            }
+          }
+        },
+        {
+          "key": "simple-attendance",
+          "image": "attendance/attendance1.webp",
+          "altImage": "attendance",
+          "title": "simple attendance",
+          "content": "Mengerjakan Backend API dan CMS untuk aplikasi mobile Simple Attendance, Back End API menggunakan NodeJS dengan framework HapiJS, dan untuk CMS menggunakan React JS.",
+          "modal": {
+            "images": [
+              "attendance/attendance1.webp",
+              "attendance/attendance2.webp",
+              "attendance/attendance3.webp",
+              "attendance/attendance4.webp",
+              "attendance/attendance5.webp"
+            ],
+            "processTime": {
+              "title": "Waktu Pengerjaan",
+              "content": "22 Mei 2023 - 5 Juni 2023"
+            },
+            "framework": {
+              "title": "Framework",
+              "content": ["Node JS v16.17.0", "ReactJS", "Tailwind CSS"]
+            },
+            "tools": {
+              "title": "Tools",
+              "content": [
+                "Absensi Menggunakan Face Match",
+                "Cache Menggunakan Redis"
+              ]
+            },
+            "fitur": {
+              "title": "Fitur",
+              "content": [
+                "Auth JWT Token",
+                "Register",
+                "Authorization",
+                "Absensi"
+              ]
+            },
+            "jobsDesk": {
+              "title": "Pekerjaan",
+              "content": [
+                "Back End API Mobile",
+                "CMS Untuk Admin",
+                "Deployment"
+              ]
+            },
+            "description": {
+              "title": "Deskripsi",
+              "content": "Aplikasi absensi untuk karyawan menggunakan face match, dapat melakukan request cuti, dan izin, CMS dapat melihat absensi karyawan perbulan dan melihat total jumlah absen, dapat melihat keterlambatan karyawan dalam beberapa bulan."
+            }
+          }
+        },
+        {
+          "key": "byon",
+          "image": "byon/byon.webp",
+          "altImage": "byon",
+          "title": "Company Profile BYON",
+          "content": "Membuat Company Profile BYON menggunakan PHP, Javascript, dan Tailwind CSS, mobile responsive, dapat mengirim email, dan menggunakan Google Recapta.",
+          "modal": {
+            "images": [
+              "byon/byon.webp",
+              "byon/byon2.webp",
+              "byon/byon3.webp",
+              "byon/byon4.webp"
+            ],
+            "processTime": {
+              "title": "Waktu Pengerjaan",
+              "content": "6 Februari 2023 - 12 Februari 2023"
+            },
+            "framework": {
+              "title": "Framework",
+              "content": ["Tailwind CSS"]
+            },
+            "tools": {
+              "title": "Tools",
+              "content": ["PHP"]
+            },
+            "fitur": {
+              "title": "Fitur",
+              "content": [
+                "Kirim Email Menggunakan PHP Mailer",
+                "Company Profile"
+              ]
+            },
+            "jobsDesk": {
+              "title": "Pekerjaan",
+              "content": ["Create Company Profile", "Deployment"]
+            },
+            "description": {
+              "title": "Deskripsi",
+              "content": "Website company profile sudah menerpakan responsive, untuk mengenalkan aplikasi Byon, produk-produk yang terdapat di Aplikasi byon, serta fitur-fitur yang dimilikinya, jika ada yang berminat dapat mengirimkan email melalui halaman contact."
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "title": {
+        "one": "Kontak",
+        "two": "kontak ke saya"
+      },
+      "form": {
+        "title": "Kirim ke whatshapp",
+        "name": {
+          "label": "nama lengkap",
+          "placeholder": "Harap masukan nama lengkap"
+        },
+        "email": {
+          "label": "email",
+          "placeholder": "Harap masukan nama email"
+        },
+        "phone": {
+          "label": "Nomor handphone",
+          "placeholder": "08**********"
+        },
+        "message": {
+          "label": "pesan",
+          "placeholder": "Harap masukan pesan yang ingin di sampaikan"
+        },
+        "button": "kirim pesan"
+      },
+      "contact": [
+        {
+          "key": "address",
+          "image": "address",
+          "one": "DKI Jakarta, Jakarta Utara",
+          "two": "Pademangan, Pademangan Timur 14410"
+        },
+        {
+          "key": "phone",
+          "image": "phone",
+          "one": "+62 877 8298 7067",
+          "two": "Senin s/d Jum 9:00 - 20:00"
+        },
+        {
+          "key": "email",
+          "image": "email",
+          "one": "rizatsakmir@gmail.com",
+          "two": "Kirim pesan kapan saja!"
+        }
+      ]
+    },
+    "footer": {
+      "copyRight": "Hak Cipta ©2023 Semua hak dilindungi undang-undang"
+    }
+  }
+}
