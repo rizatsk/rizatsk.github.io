@@ -28,7 +28,7 @@
     "about": {
       "title": "about me",
       "job": "front end web developer <br> and back end",
-      "description": "I am a Web Developer, already have advanced level <br class='hidden xl:block'> certification in the field of Front End Web Developer and <br class='hidden xl:block'> Fundamental Back End Developer. I am a self-learner who likes <br class='hidden xl:block'> to learn new competencies and skills, easy to work individually <br class='hidden xl:block'> or in a team, can be flexible to adapt to the environment.",
+      "description": "I am a Front End Web Developer and Back End, accustomed to creating and developing website applications <br class='hidden xl:block'> and Back End APIs using NodeJS, ReactJS and Laravel <br class='hidden xl:block'> Already have an expert level of certification in the field of Front End Web Developer and <br class='hidden xl:block'> Advanced Back End Developer. Technologies mastered are Database SQL, Redis, Message Broker, Tailwind CSS, GIT and GITHUB. <br class='hidden xl:block'>I am an independent learner who likes to learn new competencies and skills, prefers to work in a team, <br class='hidden xl:block'> can be flexible to adapt to the environment.",
       "button": "download CV"
     },
     "portfolio": {
@@ -296,7 +296,7 @@
     "about": {
       "title": "tentang saya",
       "job": "front end web developer <br> dan back end",
-      "description": "Saya seorang Pengembang Web, sudah memiliki tingkat lanjutan <br class='hidden xl:block'> sertifikasi di bidang Front End Web Developer dan <br class='hidden xl:block'> Pengembang Back End lanjutan. Saya seorang pembelajar mandiri yang suka <br class='hidden xl:block'> mempelajari kompetensi baru dan keterampilan, mudah untuk bekerja secara individu <br class='hidden xl:block'> atau dalam tim, dapat fleksibel untuk beradaptasi dengan lingkungan.",
+      "description": "Saya seorang Front End Web Developer dan Back End, terbiasa membuat dan mengembangkan aplikasi website dan <br class='hidden xl:block'> Back End API menggunakan NodeJS, ReactJS, dan Laravel <br class='hidden xl:block'> Sudah memiliki tingkat mahir sertifikasi di bidang Front End Web Developer dan <br class='hidden xl:block'> Pengembang Back End Dasar. Teknologi yang kuasai adalah Database SQL, Redis, Message Broker, Tailwind CSS, GIT dan GITHUB <br class='hidden xl:block'> Saya seorang pembelajar mandiri yang suka mempelajari kompetensi baru dan keterampilan, <br class='hidden xl:block'> lebih menyukai bekerja dalam tim, bisa fleksibel untuk beradaptasi dengan lingkungan.",
       "button": "unduh CV"
     },
     "portfolio": {
